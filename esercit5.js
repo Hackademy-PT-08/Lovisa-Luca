@@ -183,7 +183,7 @@ let arraylength = array.length
 
 console.log (arraylength)
 
-let lastItem= array.pop()
+let lastItem= array.pop() // occhio al pop() perchè è vero che ti  restituisce l'ultimo elemento ma te lo rimuove anche dall'array finale. Per il lastItem potresti ottenerlo lastItem = array[arralength - 1];
 
 console.log(lastItem) */
 
