@@ -113,17 +113,23 @@ let espulsione=false;
 function fantaCalcio (bV,gF,aE,aG,a,e) {
     let VotoTotale=0;
     VotoTotale=bV+(gF*3)+aE-(aG*2);
-    if (a=true) {
-        result=VotoTotale-0.5;
-    }else if (b=true){
-        result=VotoTotale-1
+
+    if (a===true) {
+        VotoTotale+=-0.5;
+    } ;
+    
+    if (e===true){
+        VotoTotale+=-1
     }
-    return result
+    return console.log(VotoTotale)
 }
 
 fantaCalcio(baseVoto,golFatti,assistEffettuati,autogol,ammonizione,espulsione)
 
-console.log(result)*/
+*/
+
+
+
 
 /*Esercizio 6
 

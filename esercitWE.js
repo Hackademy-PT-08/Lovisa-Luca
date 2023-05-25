@@ -118,7 +118,7 @@ for (i=0 ; i < Testo.length ; i++) {
      console.log(`la vocale a è presente ${voc_i} volte`)
      console.log(`la vocale a è presente ${voc_o} volte`)
      console.log(`la vocale a è presente ${voc_u} volte`)
-     console.log(`il totale delle vocali è ${totVoc}`)
+     console.log(`il totale delle vocali è : ${totVoc}`)
 
 }
 */
